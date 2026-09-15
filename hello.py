@@ -1,5 +1,11 @@
 #Ask user for their name
-name = input("What is your name?")
+name =input("What is your name?")
+
+#Remove whitespace from str
+name = name.strip()
+
+#Capitalize user's name
+name = name.title()
 
 #Greet the user
-print ("hello, " + name + ". How are you today?")
+print(f"hello, {name}") 
